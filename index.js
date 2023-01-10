@@ -19,3 +19,10 @@ function overwriteBestCustomer() {
     bestCustomer = "maybe bob"
     return bestCustomer;
 }
+
+
+const leastFavoriteCustomer = "Spider";
+function changeLeastFavoriteCustomer() {
+    leastFavoriteCustomer = "Snake";
+    return leastFavoriteCustomer;
+}
